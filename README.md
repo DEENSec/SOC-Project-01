@@ -33,5 +33,7 @@ For detailed installation and configuration steps, refer to the full article: SO
 
 ## Future Enhancements
 Add Cortex for automated malware analysis.
+
 Integrate MISP for improved threat intelligence sharing.
+
 integrate virustotal and etc.
