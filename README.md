@@ -10,6 +10,7 @@ TheHive: Centralizes security alerts for efficient incident response.
 Future Plans: Integrate Cortex for automated malware analysis and MISP for enhanced threat intelligence.
 
 ## Architecture
+
 Ubuntu VM 01: Runs Wazuh Agent to monitor file downloads.
 Ubuntu VM 02: Hosts Wazuh Manager and Shuffle for alert processing and automation.
 Ubuntu VM 03: Runs TheHive for incident management, supported by Elasticsearch and Cassandra.
