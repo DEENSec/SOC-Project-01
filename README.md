@@ -5,8 +5,11 @@ This project creates an automated Security Operations Center (SOC) pipeline for 
 
 ## Features
 Wazuh: Monitors file downloads and detects threats in real-time.
+
 Shuffle: Automates alert forwarding from Wazuh to TheHive.
+
 TheHive: Centralizes security alerts for efficient incident response.
+
 Future Plans: Integrate Cortex for automated malware analysis and MISP for enhanced threat intelligence.
 
 ## Architecture
@@ -19,9 +22,11 @@ Ubuntu VM 03: Runs TheHive for incident management, supported by Elasticsearch a
 
 
 ## How It Works
-Wazuh detects file creation in the monitored directory.
-Alerts are sent to Shuffle, which forwards them to TheHive.
-TheHive organizes alerts into cases for analysis and response.
+1. Wazuh detects file creation in the monitored directory.
+   
+2. Alerts are sent to Shuffle, which forwards them to TheHive.
+
+3. TheHive organizes alerts into cases for analysis and response.
 
 ## Setup
 For detailed installation and configuration steps, refer to the full article: SOC Automation: Wazuh + Shuffle + TheHive.
