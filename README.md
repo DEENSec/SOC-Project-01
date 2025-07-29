@@ -31,6 +31,9 @@ Ubuntu VM 03: Runs TheHive for incident management, supported by Elasticsearch a
 ## Setup
 For detailed installation and configuration steps, refer to the full article: SOC Automation: Wazuh + Shuffle + TheHive.
 
+Project Link : https://medium.com/@deensec/wazuh-shuffle-and-thehive-automated-file-threat-detection-and-incident-response-446d93ee246b
+
+
 ## Future Enhancements
 Add Cortex for automated malware analysis.
 
