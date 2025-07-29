@@ -1,6 +1,6 @@
 # SOC Automation: Wazuh + Shuffle + TheHive
 
-![image alt](https://raw.githubusercontent.com/DEENSec/SOC-Project-01/refs/heads/main/SOC_post.pnghttps://raw.githubusercontent.com/DEENSec/SOC-Project-01/refs/heads/main/18.png)
+![image alt](https://raw.githubusercontent.com/DEENSec/SOC-Project-01/refs/heads/main/SOC_post.png)
 
 ## Overview
 This project creates an automated Security Operations Center (SOC) pipeline for real-time file threat detection and incident response. It integrates Wazuh for threat detection, Shuffle for workflow automation, and TheHive for incident management, with Elasticsearch and Cassandra for log and data management.
